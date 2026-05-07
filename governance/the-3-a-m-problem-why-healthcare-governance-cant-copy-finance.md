@@ -1,9 +1,4 @@
----
-title: The 3 a.m. Problem: Why Healthcare Governance Can't Copy Finance
-slug: the-3-a-m-problem-why-healthcare-governance-cant-copy-finance
-published: 2026-02-17
-excerpt: Governance by design is essential, until 3 a.m. In an emergency, a perfectly compliant blood bank workflow nearly cost a life. Healthcare AI doesn't need less governance. It needs adaptive governance, rules that scale with risk and allow accountable overrides when seconds matter.
----
+# The 3 a.m. Problem: Why Healthcare Governance Can't Copy Finance
 
 I was a young intern in anesthesiology when I first encountered the disconnect between how governance is supposed to work and how it actually needs to work in healthcare.
 

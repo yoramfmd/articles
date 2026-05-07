@@ -1,9 +1,4 @@
----
-title: Customer Data Platforms in Healthcare: Necessary Infrastructure, Dangerous Autonomy
-slug: customer-data-platforms-in-healthcare-necessary-infrastructure-dangerous-autonomy
-published: 2026-02-09
-excerpt: Healthcare is rapidly adopting Customer Data Platforms to unify patient data and personalize engagement. Used as infrastructure, CDPs improve identity resolution, consent management, and outreach. But without clear governance, they risk optimizing for engagement over clinical need.
----
+# Customer Data Platforms in Healthcare: Necessary Infrastructure, Dangerous Autonomy
 
 Healthcare is adopting Customer Data Platforms at scale. Vendors promise unified patient views, personalized engagement, and real-time orchestration across fragmented systems. Health systems are buying in, eager to close care gaps and improve experience.
 

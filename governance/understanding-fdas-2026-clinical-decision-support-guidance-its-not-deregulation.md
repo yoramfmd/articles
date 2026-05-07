@@ -1,9 +1,4 @@
----
-title: Understanding FDA's 2026 Clinical Decision Support Guidance: It's Not Deregulation
-slug: understanding-fdas-2026-clinical-decision-support-guidance-its-not-deregulation
-published: 2026-01-21
-excerpt: The FDA's January 2026 CDS guidance isn't deregulation, it's smart, risk-based clarity. AI tools that support physician judgment without black-box automation can move faster. High-risk diagnostic systems remain regulated. That's not stepping back, it's focusing oversight where it truly matters.
----
+# Understanding FDA's 2026 Clinical Decision Support Guidance: It's Not Deregulation
 
 We've all heard that the FDA is easing regulation on AI in healthcare. That's not what's happening. The final Clinical Decision Support Software guidance published in January 2026 doesn't deregulate AI, it draws a bright line between what requires oversight and what doesn't. And that line is drawn based on risk, not convenience.
 

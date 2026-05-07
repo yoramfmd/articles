@@ -1,9 +1,4 @@
----
-title: Governance: The Word Everyone Uses and Nobody Agrees On
-slug: governance-the-word-nobody-agrees-on
-published: 2026-02-28
-excerpt: Everyone talks about governance. Nobody agrees on what it means. Data governance, AI governance, master data governance: they're not separate programs. They're one spectrum. And most enterprises already have 70% of what they need. They just can't see how the pieces connect.
----
+# Governance: The Word Everyone Uses and Nobody Agrees On
 
 We're in a strange moment for governance.
 

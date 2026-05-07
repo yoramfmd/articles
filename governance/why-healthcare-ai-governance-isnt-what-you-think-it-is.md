@@ -1,9 +1,4 @@
----
-title: Why Healthcare AI Governance Isn't What You Think It Is
-slug: why-healthcare-ai-governance-isnt-what-you-think-it-is
-published: 2026-02-16
-excerpt: AI governance isn't nested boxes or monthly committees. It's architecture. Under HIPAA and GDPR, your "data steward" often can't even review the data. Real governance is built into the plumbing, validation, lineage, and security enforced automatically. Otherwise, it's theater.
----
+# Why Healthcare AI Governance Isn't What You Think It Is
 
 On a Tuesday morning in March, a cardiologist at a major teaching hospital receives an alert on her phone. An AI system has flagged one of her patients, a sixty-four-year-old man with atrial fibrillation, as high-risk for stroke within thirty days. The alert recommends escalating anticoagulation. She stares at it, then closes it and moves on.
 

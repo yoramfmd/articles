@@ -1,9 +1,4 @@
----
-title: A thought on titles and timelines
-slug: a-thought-on-titles-and-timelines
-published: 2026-02-07
-excerpt: I'm seeing a flood of self-proclaimed "AI experts" with little real depth. After decades building enterprise systems, I still hesitate to claim the title. In healthcare AI, experience matters more than hype. Projects fail from old debts and governance gaps, not lack of buzzwords.
----
+# A thought on titles and timelines
 
 I keep getting connection requests on LinkedIn from "Healthcare AI Experts" with "10 years of AI experience" who were still in college when ChatGPT was launched.
 

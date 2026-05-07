@@ -1,9 +1,4 @@
----
-title: The Architect Who Should Have Read JAMA
-slug: the-architect-who-should-have-read-jama
-published: 2026-02-27
-excerpt: In healthcare AI, policy shifts now appear first in journals like JAMA and NEJM, then quietly become grant conditions and RFP requirements. Many tech teams miss this signal. The winners will be those who translate medical literature into architecture before it becomes mandatory.
----
+# The Architect Who Should Have Read JAMA
 
 There is a meeting that happens regularly in healthcare technology companies, and it almost always ends the same way.
 

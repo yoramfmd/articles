@@ -1,9 +1,4 @@
----
-title: Do No Harm, Encoded
-slug: do-no-harm-encoded
-published: 2026-02-26
-excerpt: Asimov gave robots three non-negotiable laws. Medicine gives physicians an oath. Healthcare AI has governance, but no runtime constitution. Until safety principles are enforced at the moment of output, not just in policy documents, we are deploying systems without the equivalent of "do no harm."
----
+# Do No Harm, Encoded
 
 ### Why Healthcare Needs an AI Constitution
 
