@@ -1,0 +1,1 @@
+[batch 2 file 2 content - full content to be loaded from batch file]

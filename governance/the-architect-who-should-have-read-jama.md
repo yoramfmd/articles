@@ -1,0 +1,1 @@
+[batch 2 file 6 content]
