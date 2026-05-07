@@ -1,9 +1,4 @@
----
-title: The House of Cards: Why MVP Thinking Is Breaking Healthtech
-slug: the-house-of-cards-why-mvp-thinking-is-breaking-healthtech
-published: 2026-02-28
-excerpt: MVP was meant to test ideas, not become architecture. Now, we've started stacking prototypes into production systems nobody designed as systems. When one layer fails, the whole structure drifts silently. In medicine, that's not technical debt. It's patient risk.
----
+# The House of Cards: Why MVP Thinking Is Breaking Healthtech
 
 The MVP used to be a test balloon. You sent it up, watched where the wind took it, and then built the real thing. Somewhere in the last decade, we stopped building the real thing. Now we just send up more balloons and call it architecture.
 

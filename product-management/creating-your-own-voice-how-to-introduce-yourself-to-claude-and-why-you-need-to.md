@@ -1,9 +1,4 @@
----
-title: Creating Your Own Voice: How to Introduce Yourself to Claude (and Why You Need To)
-slug: creating-your-own-voice-how-to-introduce-yourself-to-claude-and-why-you-need-to
-published: 2026-02-27
-excerpt: My first AI-assisted article was polished, accurate, and completely unrecognizable as mine. The problem wasn't the model. It was that I never taught it how I think. If you want AI to sound like you, you have to externalize your reasoning first.
----
+# Creating Your Own Voice: How to Introduce Yourself to Claude (and Why You Need To)
 
 The first article I wrote with Claude read like every other AI-assisted piece floating around LinkedIn. Competent. Correct. Utterly hollow.
 

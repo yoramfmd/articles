@@ -1,10 +1,4 @@
----
-title: You're Not a Bridge Anymore: How AI Is Redefining Product Management
-slug: youre-not-a-bridge-anymore-how-ai-is-redefining-product-management
-published: 2026-03-02
-excerpt: For 20 years, I translated between customers and engineers. Now I architect decision systems with AI. But here's the catch: you're designing for two customers: humans and their AI agents. Design for one, forget the other, and it fails.
-
----
+# You're Not a Bridge Anymore: How AI Is Redefining Product Management
 
 I left my radiology residency because I couldn't reconcile myself to implementing evidence without questioning it. I wanted to innovate, to push back, to be the contrarian in the room. Medicine doesn't have space for people like that.
 

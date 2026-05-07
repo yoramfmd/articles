@@ -1,9 +1,4 @@
----
-title: The Smartest Person in the Room Is a Prompt
-slug: the-smartest-person-in-the-room-is-a-prompt
-published: 2026-02-02
-excerpt: At 2am, every product manager runs the same simulation, an imaginary room of stakeholders. The problem? You built the room. AI can become the same echo chamber. There are five levels of working with AI, and only the higher ones truly challenge your thinking.
----
+# The Smartest Person in the Room Is a Prompt
 
 At some point in the life of every product decision, usually around two in the morning the night before it has to be made, the product manager runs the mental simulation. What will the CFO say. What will the engineering lead say. What will the customer who called last Tuesday say when she sees what the roadmap actually produced. The simulation feels rigorous. It is not. It is a hall of mirrors built from the objections you have already survived, staffed entirely by people whose reactions you think you can predict, and constitutionally blind to the perspective you have not yet encountered and therefore cannot model. You are not consulting the room. You are consulting your memory of the room. The consensus you reach at two in the morning is consensus with yourself.
 

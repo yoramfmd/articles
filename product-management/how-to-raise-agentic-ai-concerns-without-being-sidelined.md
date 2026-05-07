@@ -1,10 +1,4 @@
----
-title: How to Raise Agentic AI Concerns Without Being Sidelined
-slug: how-to-raise-agentic-ai-concerns-without-being-sidelined
-published: 2026-04-20
-tag: Product Management
-excerpt: The PM who flagged the risk first is now tagged as "not bought in." That is not a values problem. It is a delivery problem. Four moves that trade gut-feeling objections for artifacts, unit economics, and the question that aligns every executive in the room.
----
+# How to Raise Agentic AI Concerns Without Being Sidelined
 
 **Why raising agentic AI concerns gets the PM sidelined, and four concrete moves that change what the room is looking at.**
 

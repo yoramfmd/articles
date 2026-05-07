@@ -1,10 +1,4 @@
----
-title: What CEOs Need to Know to Win the AI Bloodbath
-slug: what-ceos-need-to-know-to-win-the-ai-bloodbath
-published: 2026-04-20
-tag: Product Management
-excerpt: Most CEOs are optimizing for when the agent ships. The question that matters is what the customer experiences during the rollback. Five things the current agentic AI plan is missing, and the four questions the CEO should be asking before any agent ships.
----
+# What CEOs Need to Know to Win the AI Bloodbath
 
 **Five things most CEO decks on agentic AI are missing, and the four-question pre-launch review that closes the gap.**
 

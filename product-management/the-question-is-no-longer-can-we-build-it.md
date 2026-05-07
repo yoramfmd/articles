@@ -1,10 +1,4 @@
----
-title: The Question Is No Longer "Can We Build It?"
-slug: the-question-is-no-longer-can-we-build-it
-published: 2026-02-05
-excerpt: The bottleneck in tech is no longer writing code, it's deciding what to build. As AI collapses development time, value shifts upstream to product judgment. In healthcare especially, models work, but projects fail without real product thinking. The new question isn't can we build it, but should we.
-
----
+# The Question Is No Longer "Can We Build It?"
 
 ### Why Product Management and Product Research Are the Most Critical Skills in the Age of AI
 
