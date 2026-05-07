@@ -1,9 +1,4 @@
----
-title: The North Star for AI Isn't Silicon Valley. It's the Hospital.
-slug: healthcare-is-the-north-star-for-ai
-published: 2026-03-17
-excerpt: Healthcare is slow, regulated, fragmented, and over-documented. That's exactly why it's the best AI proving ground in the world. The field that everyone called a laggard has been running the most rigorous AI experiment for decades. The rest of us are just starting to catch up.
----
+# The North Star for AI Isn't Silicon Valley. It's the Hospital.
 
 Healthcare is slow. Heavily regulated. Bureaucratic by design. It moves by committee, measures twice, and still sometimes argues before it cuts. Its documentation requirements would paralyze most other industries. Its data is fragmented across systems that were never designed to talk to each other. Its practitioners are trained to question, validate, and demand peer-reviewed evidence before changing how they work. And it carries a burden no other industry shares: the cost of a mistake can be a life.
 

@@ -1,9 +1,4 @@
----
-title: Data Harmonization in Healthcare: Building the Foundation for AI-Ready Clinical Data
-slug: data-harmonization-in-healthcare-building-the-foundation-for-ai-ready-clinical-data
-published: 2026-02-05
-excerpt: We can't talk seriously about AI in healthcare without understanding the data infrastructure behind it. From HL7 v2 to FHIR, SNOMED, and MCP, I break down how clinical data actually moves and why every healthcare leader needs to grasp this before approving the next AI pilot.
----
+# Data Harmonization in Healthcare: Building the Foundation for AI-Ready Clinical Data
 
 ### The Problem: A Landscape of Fragmented Data
 

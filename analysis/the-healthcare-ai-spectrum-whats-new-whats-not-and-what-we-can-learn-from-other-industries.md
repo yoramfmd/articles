@@ -1,9 +1,4 @@
----
-title: The Healthcare AI Spectrum: What's New, What's Not, and What We Can Learn From Other Industries
-slug: the-healthcare-ai-spectrum-whats-new-whats-not-and-what-we-can-learn-from-other-industries
-published: 2026-01-28
-excerpt: "AI in healthcare" is too broad to be useful. It spans mature imaging tools to experimental autonomous agents. Governance should match risk and maturity, not hype. Many use cases are transferable from other industries. Clarity on autonomy and context will speed safe, meaningful adoption.
----
+# The Healthcare AI Spectrum: What's New, What's Not, and What We Can Learn From Other Industries
 
 ### Why The Term "AI in Healthcare" Has Become Meaningless
 

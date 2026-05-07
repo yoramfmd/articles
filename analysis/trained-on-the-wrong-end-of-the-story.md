@@ -1,9 +1,4 @@
----
-title: Trained on the Wrong End of the Story
-slug: trained-on-the-wrong-end-of-the-story
-published: 2026-02-26
-excerpt: A Nature Medicine study found ChatGPT Health under-triaged 52% of real emergencies. The deeper issue may not be the model, but its training data: AI learns from documented hospital records, yet it is deployed at first contact, where the most critical signals were never captured.
----
+# Trained on the Wrong End of the Story
 
 ### Why ChatGPT Health Failed Where It Matters Most
 

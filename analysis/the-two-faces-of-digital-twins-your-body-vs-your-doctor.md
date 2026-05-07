@@ -1,9 +1,4 @@
----
-title: The Two Faces of Digital Twins: Your Body vs. Your Doctor
-slug: the-two-faces-of-digital-twins-your-body-vs-your-doctor
-published: 2026-02-07
-excerpt: Digital twins are moving from factories to hospitals. We're building replicas of patients, modeling disease in real time, and of physicians, capturing decades of expertise. The twin extends capacity while preserving oversight.  What will happen when they no longer need us in between?
----
+# The Two Faces of Digital Twins: Your Body vs. Your Doctor
 
 A few years ago, when IoT was as hot as AI is today, I led a team at SAP working on real-time monitoring solutions for consumer products and pharmaceutical companies. This was part of SAP's broader Industry 4.0 initiative, where Industrial Internet of Things (IIoT), artificial intelligence, cyber-physical systems, big data, and advanced robotics were converging to transform manufacturing.
 
