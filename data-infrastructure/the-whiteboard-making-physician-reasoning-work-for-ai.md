@@ -1,9 +1,4 @@
----
-title: The Whiteboard: Making Physician Reasoning work for AI
-slug: the-whiteboard-making-physician-reasoning-work-for-ai
-published: 2026-02-22
-excerpt: Healthcare AI fails not from lack of data, but from fragmentation. Each system sees a piece of data, no one sees the patient. Physicians reason in connected patterns, "Knowledge Graphs" formalize that reasoning, creating a unified, governed layer that lets AI see meaning, not noise.
----
+# The Whiteboard: Making Physician Reasoning work for AI
 
 If you've watched a crime show, True Detective, Mindhunter, any CSI episode, you know the scene. The detective stands in front of a whiteboard or corkboard covered in evidence. Photographs pinned down. A timeline scrawled in marker. And red string connecting everything: the suspect to the weapon, the weapon to the location, the location to the motive. The connections are the investigation. You don't need complex analysis to see the pattern. The relationships between pieces of evidence tell the story.
 

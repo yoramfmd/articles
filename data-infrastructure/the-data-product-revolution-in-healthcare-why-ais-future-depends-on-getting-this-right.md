@@ -1,9 +1,4 @@
----
-title: The Data Product Revolution in Healthcare: Why AI's Future Depends on Getting This Right
-slug: the-data-product-revolution-in-healthcare-why-ais-future-depends-on-getting-this-right
-published: 2026-02-27
-excerpt: Data products are the missing layer in healthcare AI. There is no harmonization at scale without them. Instead of fragmented, untrusted datasets, data products create governed, reusable, semantically clear assets with defined ownership and value. That's how AI moves from pilots to production.
----
+# The Data Product Revolution in Healthcare: Why AI's Future Depends on Getting This Right
 
 ### A Perspective from the Intersection of Medicine and Technology
 

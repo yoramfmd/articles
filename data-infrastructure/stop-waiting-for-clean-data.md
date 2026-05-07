@@ -1,9 +1,4 @@
----
-title: Stop Waiting for Clean Data
-slug: stop-waiting-for-clean-data
-published: 2026-02-25
-excerpt: The healthcare data integration problem is 20 years old and not going away. So why are we still building AI that assumes clean data? A case for designing AI that works in the real world, not the one we keep promising to build.
----
+# Stop Waiting for Clean Data
 
 ### A Case for AI That Works in the Real World
 

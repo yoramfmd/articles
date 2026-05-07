@@ -1,9 +1,4 @@
----
-title: The Whiteboard: Making Supply Chain Reasoning Work for AI
-slug: the-whiteboard-making-supply-chain-reasoning-work-for-ai
-published: 2026-03-16
-excerpt: Supply chain AI fails not from lack of data, but from fragmentation. Each system sees a slice of the chain; no one sees the whole. Operations leaders already reason in connected patterns. Knowledge graphs formalize that reasoning, creating a unified, governed layer that lets AI see the supply chain as one thing.
----
+# The Whiteboard: Making Supply Chain Reasoning Work for AI
 
 If you've watched a crime show, True Detective, Mindhunter, any CSI episode, you know the scene. The detective stands in front of a whiteboard or corkboard covered in evidence. Photographs pinned down. A timeline scrawled in marker. Red string connecting everything: the suspect to the weapon, the weapon to the location, the location to the motive. The connections are the investigation. You don't need complex analysis to see the pattern. The relationships between pieces of evidence tell the story.
 
