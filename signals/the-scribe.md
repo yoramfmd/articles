@@ -1,3 +1,11 @@
+---
+title: The Scribe
+slug: the-scribe
+published: 2026-01-06
+excerpt: In the 1990s, a non-Jewish friend of mine wrote clinical notes for observant physicians who could not work on the Sabbath. Today, ambient AI does the same job. Who owns what the scribe writes?
+url: https://data-decisions-and-clinics.ghost.io/the-scribe/
+---
+
 # The Scribe
 
 My roommate had an unusual job.

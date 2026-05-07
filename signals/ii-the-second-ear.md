@@ -1,3 +1,11 @@
+---
+title: The Second Ear
+slug: the-second-eye
+published: 2026-01-02
+excerpt: When was the last time you trusted a machine with a life-or-death decision? If you've ever had an ECG, the answer is: already. Since 1982, ECG machines have printed automated interpretations, computers reading your heart and offering a clinical opinion long before we called it AI.
+url: https://data-decisions-and-clinics.ghost.io/the-second-eye/
+---
+
 # The Second Ear
 
 A cardiologist once told me about a close call early in her career. The automated ECG interpretation printed "Normal Sinus Rhythm." She almost signed off. Something nagged at her to look at the actual tracing. Good thing she did. The algorithm had completely missed a dangerous arrhythmia called Wolff-Parkinson-White syndrome, a condition where an extra electrical pathway in the heart can trigger life-threatening rapid rhythms.

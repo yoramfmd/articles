@@ -1,3 +1,11 @@
+---
+title: The Search
+slug: the-search
+published: 2026-01-07
+excerpt: Medical information used to be hard to find. Then easy to find. Now it finds you. At each step we celebrated the progress. We are still figuring out what we lost.
+url: https://data-decisions-and-clinics.ghost.io/the-search/
+---
+
 # The Search
 
 The library at the Hebrew University Faculty of Medicine was an impressive building.
