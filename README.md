@@ -14,13 +14,13 @@ Personal essays using clinical memories as lenses on AI. Each piece is named aft
 
 | Article | Published | Ghost |
 |---|---|---|
-| [I. The Second Eye](signals/the-second-eye.md) | Jan 9, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-second-eye/) |
-| [II. The Second Ear](signals/ii-the-second-ear.md) | Jan 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [III. The Autopilot](signals/iii-the-autopilot.md) | Jan 3, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [IV. The Microscope](signals/iv-the-microscope.md) | Jan 4, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [V. The Architect](signals/v-the-architect.md) | Jan 5, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [VI-A. The Scribe](signals/the-scribe.md) | Jan 2026 | — |
-| [VI-B. The Search](signals/the-search.md) | Jan 2026 | — |
+| [I. The Second Ear](signals/ii-the-second-ear.md) | Jan 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-second-eye/) |
+| [II. The Autopilot](signals/iii-the-autopilot.md) | Jan 3, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/iii-the-autopilot/) |
+| [III. The Microscope](signals/iv-the-microscope.md) | Jan 4, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/iv-the-microscope/) |
+| [IV. The Architect](signals/v-the-architect.md) | Jan 5, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/v-the-architect/) |
+| [V. The Scribe](signals/the-scribe.md) | Jan 6, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-scribe/) |
+| [VI. The Search](signals/the-search.md) | Jan 7, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-search/) |
+| [VII. The Voice](signals/the-voice.md) | Jan 9, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-voice/) |
 
 ---
 
