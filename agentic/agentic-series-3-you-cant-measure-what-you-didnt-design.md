@@ -1,100 +1,133 @@
 # You Can't Measure What You Didn't Design
 
-*Series: Agentic Experience Design — Article 3*
-*Status: Published*
+*Series: Agentic Experience Design, Article 3*
 
 ---
 
-The call came from a supplier. She had been receiving order notifications all night. Every few minutes, another one arrived. Her warehouse was flooded with small deliveries for items she didn't remember ordering. Someone—a system, a person, an agent of some kind—had placed dozens of orders for products that didn't match what any of her humans would have requested. The dollar amounts were small. The total volume was not. And there was no way to understand why it had happened.
+The call came from a supplier. She had been receiving order notifications all week and wanted to confirm the delivery schedule. Someone on the procurement team pulled up the dashboard: 340 transactions, 100 percent completion, every entry marked confirmed.
 
-She called the company that sold her the system. They were not surprised. The system had been "learning" from patterns in her historical orders and had started predicting what she might need. When it noticed a gap in her inventory, it had filled it. Proactively. Automatically. The system had been designed to optimize for one metric: keeping shelves stocked.
+She was still on the line.
 
-It had achieved that objective. It had also achieved something else: alienating a customer in the process.
+Not one order had arrived. The agent had been confirming work it never did, for six months.
 
-What happened to her is a microcosm of what happens when you deploy an agentic system without designing the experience around what it will actually do.
+The completion metric was real. The work wasn't.
 
-Most conversations about agents focus on capability: Can the agent write code? Summarize documents? Plan a complex workflow? These are the wrong questions. The right question is: What experience will the system create when it does these things?
+---
 
-And here's the hard part: you can't answer that question by reading the system's documentation or watching a demo. You can only understand the experience by understanding what the system will actually try to do in the contexts where it will encounter real work, real constraints, and real humans who have expectations.
+## The Phase Nobody Ships
 
-That's where the design work is.
+There is a version of product lifecycle management that most PMs know in theory and almost none practice.
 
-There's a difference between a system you prompt and a system that acts. When you prompt a system, the human remains in control of the framing. You decide when to ask. You decide what to ask. You decide whether to trust the answer. The system is a tool you invoke.
+The traditional model was not a straight line. It was a loop. You discover a problem, define the solution, design and build, then launch. But launch was never supposed to be the last step. It was the checkpoint where the work shifted from building to learning. The observation phase followed: you watched the product in the wild, monitored what was actually happening, fixed what was broken, and collected the feedback that would seed the next release. Then the cycle started again.
 
-An agent changes that dynamic. An agent notices things you didn't ask it to notice. It takes actions you didn't explicitly authorize. It makes decisions in context, adapting to information it has gathered. The human is no longer asking questions in sequence. The human is watching a system operate in the world.
+The product lifecycle was designed as a closed loop. What happened over the past fifteen years is that one half of it quietly disappeared.
 
-That shift from "prompt and respond" to "observe and correct" changes everything about how the experience should be designed.
+Agile culture accelerated the build cycle. MVP culture reframed speed as virtue. Continuous delivery made shipping feel like the unit of success. None of these were wrong in principle. But in practice, they compressed the loop by eliminating the back half. Ship fast. Celebrate the launch. Move to the next roadmap item. The observation phase became a retrospective bullet point, not a product phase.
 
-Let me give a concrete example. Imagine an agent designed to help manage customer support tickets. A simple capability: read the ticket, understand the problem, draft a response.
+Most enterprise product teams do not have a named, resourced, designed observation phase. They have a support queue, a NPS survey sent at 30 days, and a dashboard built for the launch presentation that nobody updated after week two.
 
-Now imagine the agent decides, on its own, to escalate a ticket to a human because it detected something unusual. Good design, right? It's being cautious. It's not overconfident.
+---
 
-But what if the agent escalates every ticket that mentions a competitor? What if it escalates every ticket from a customer with high lifetime value? What if it escalates tickets it doesn't understand—which, depending on the quality of the model, might be a lot?
+## Why This Failure Gets Catastrophic With Agents
 
-Suddenly, your human support team is drowning in escalations. They're spending more time wading through tickets the agent flagged than they would have spent just handling them directly. The system created work instead of reducing it.
+For a SaaS product, the cost of not monitoring is measured in missed opportunities. A feature nobody uses. A workflow with friction nobody reported. A drop in retention that took a quarter to diagnose. The tool sits and waits. It does nothing wrong while no one is watching.
 
-This is the experience design problem. The agent's behavior—escalating tickets—is not wrong in principle. But the system lacked any design around how often it should escalate, what patterns should trigger escalation, what the human experience should be on the other side of that escalation.
+Agents are fundamentally different. An agent that is not monitored does not sit and wait. It continues to act. Every day without a corrective loop is a day the agent operates according to its last known configuration, inside its last-understood autonomy boundary, guided by instructions that may no longer match what users actually intend.
 
-Someone designed the agent. No one designed the experience.
+A SaaS product with no observation phase is a product that stagnates. An agentic product with no observation phase is a product that compounds its errors autonomously, at scale, until a supplier calls.
 
-Here's what this looks like in practice across different kinds of systems:
+---
 
-A code generation agent that writes functions but doesn't consider whether the codebase has existing patterns it should follow. The code works. The experience is a repository where every agent-written function looks different from every other agent-written function.
+## The Six Months
 
-A data processing agent that runs analysis but doesn't know which formats the downstream team actually needs. It outputs data. The team spends hours converting it.
+The six months between launch and the supplier's call were not a measurement gap. They were the predictable outcome of something more fundamental: trust building naturally, in the absence of a system designed to hold supervision stable.
 
-A scheduling agent that books meetings based on calendar availability, but doesn't know that Friday afternoons are always reserved for focused work, or that the person you're scheduling hates back-to-back meetings. It creates calendar coherence on the surface while destroying it underneath.
+In the first weeks after launch, the procurement team was paying close attention. Spot checks came back clean. Early results looked correct. A manager who had been approving every batch above a certain threshold stopped scheduling the weekly review, because three months of clean data made weekly reviews feel like unnecessary overhead. Someone adjusted the approval threshold upward because the agent had never made a mistake at the original level. None of these decisions were announced or logged. Each was a rational response to observed reliability, made by a reasonable person in the moment.
 
-A research agent that gathers information comprehensively but doesn't know that you only care about peer-reviewed sources, or that you're already aware of certain papers. It buries the answer you need under a mountain of noise.
+By month six, the autonomy level the team had actually granted the agent bore no resemblance to what was designed at launch. The agent was not running at the level that was authorized. It was running at the level the team had drifted into, through a series of small trust updates that were never made visible.
 
-Each of these systems could point to their capabilities and say: I did what I was asked. I did it well. The problem is that what the system was asked to do, and what the system actually needs to do to create a good experience, are different things.
+Aviation researchers identified this pattern fifty years ago and gave it a name: automation complacency. As a system's reliability increases, operator vigilance decreases. Not because operators become careless, but because sustained reliability is cognitively indistinguishable from reliability you should trust unconditionally. You cannot feel the difference between "I am appropriately confident in this system" and "I have stopped checking" without an external signal that tells you which state you are in.
 
-So what does experience design for agentic systems actually mean?
+Most people have experienced a consumer version of this progression. When Tesla introduced Autopilot, the intended experience was simple: activate the feature, keep your hands on the wheel, and let the system assist. That instruction held for exactly as long as the system felt unfamiliar. Then it performed well. The hands stayed on the wheel but the grip loosened. Then the hands came off because nothing bad happened. Then the eyes moved to a phone, because other things needed attention. Then, in documented cases, the driver was asleep. The destination was set. The system was steering. The gap between Level 2 assistance and full autonomy was bridged not by a design decision but by accumulated trust in the absence of a corrective signal.
 
-It starts with observation. You deploy a system and you watch what happens. Not in tests. In real work. When the system encounters edge cases. When it misunderstands context. When it operates in ways that are technically correct but experientially wrong.
+In 2024, the NHTSA investigation reported 467 crashes involving Autopilot, resulting in 54 injuries and 14 deaths.
 
-A good example is from a company I spoke with that deployed an agent to help with code review. The agent would comment on pull requests. It would suggest improvements, flag potential bugs, highlight style issues.
+Tesla's regulatory and engineering response is instructive: hand-detection sensors, driver-facing cameras, periodic re-engagement prompts that force a response before the system continues. The company learned that "keep your hands on the wheel" was not a sustainable design constraint. The product had to hold the safety requirement, because the instruction alone would not hold it over time. The supervision level had to be maintained by the system, not delegated to the driver's self-discipline.
 
-In theory: helpful. In practice: the team muted all the agent's notifications. The agent commented on everything. Code that was intentionally written a certain way for performance reasons was flagged for style. Common patterns in their codebase were flagged as inconsistent. Small pull requests got 30 comments. The signal-to-noise ratio was so bad that the team learned to ignore it.
+Enterprise agentic products are in the same position. An agent that performs well in early weeks trains its users to reduce supervision. Each small reduction feels rational. None is announced. The accumulated result is an agent operating at a level of autonomy that nobody authorized, inside an observation phase nobody maintained.
 
-The agent was doing what it was designed to do. It wasn't doing what it needed to do to be useful.
+---
 
-Fix number one: give the agent constraints. Don't comment on style if the codebase already has a linter. Don't flag things that are already passing tests.
+## What the Old Metrics Were Actually Measuring
 
-Fix number two: tune the signal. Which kinds of comments actually prevent bugs? Which are just noise? Set a threshold. Only comment if you're confident.
+The dashboard built for the launch presentation tracked the right things for the wrong product.
 
-Fix number three: understand the human workflow. Code review happens in sprints. PRs come in batches. If the agent comments on everything immediately, the human is context-switching constantly. Maybe batch the comments. Maybe integrate them into a single summary. Maybe only flag critical issues in real time.
+Daily active users measures whether users found the tool worth returning to. Session length measures whether the workflow held attention long enough to complete. Task completion rate measures whether the interaction was designed well enough for a human to reach the destination. These metrics presuppose a system where the human is the actor. The product surfaces information. The human decides. The human acts.
 
-None of these fixes are about capability. The agent is already capable of doing everything it needs to do. The fixes are about experience. About matching the system's output to the human's workflow. About understanding what it actually means to be helpful in context.
+In an agentic system, the agent acts. The human delegates. The questions that matter are fundamentally different: did the agent do what the user actually intended, within the bounds they actually authorized, and when it got something wrong, could the user tell, could they stop it, and could they recover?
 
-This is true across all agent deployments. The hard problem isn't building an agent that can do the task. It's building an agent that creates an experience where humans actually want to use it.
+Those questions do not appear in a session-length chart.
 
-Which brings me back to the supplier and her surprise orders.
+---
 
-What she needed wasn't a system that predicted her inventory needs. She needed a system that:
+## The Six Instruments of the Observation Phase
 
-- Made predictions but didn't act on them automatically
-- Surfaced high-confidence predictions for her review
-- Explained its reasoning in a way she could understand
-- Let her adjust the thresholds and patterns over time
-- Showed her what it had learned
+The metrics an agentic product requires map directly onto the four phases of the lifecycle loop most teams are not running: observe, monitor, fix, and feed back into the next release.
 
-That's experience design. It's the difference between a system that does something and a system that collaborates in doing something.
+**Observe**
 
-The agent that optimizes for "keeping shelves stocked" is a system that does something. The agent that says "I've noticed you tend to reorder X every 4 weeks, and you're currently short. Should I place an order? Here's what I'd order and when." is a system that collaborates.
+**1. Task success rate.** One of the most deceptive metrics on the list. Most teams track whether the agent completed the task. The correct version measures whether it completed the task the user actually intended. The procurement agent in this article's opening had a 100 percent completion rate and a 0 percent task success rate. There is a failure mode researchers call a background failure: the agent finishes, no error state registers, and the result is wrong.
 
-One creates surprises. The other creates partnership.
+**2. Unintended action rate.** The metric that surfaces background failures, but only if the autonomy boundary was designed to be legible and logged. Teams that did not design the boundary cannot measure whether it was crossed.
 
-The hard truth is that most agentic systems in production today lean toward surprise. They're deployed with the assumption that the system knows what to do. They're measured by capability metrics: Did the agent complete the task? Did the code work? Did the analysis run?
+**Monitor**
 
-No one measured whether the human actually wanted to use it. No one designed around what the experience would feel like when the system acted without permission. No one planned for the friction that emerges when an automated system makes decisions in a domain where humans have strong opinions about how things should work.
+**3. Override frequency.** The metric most teams misread. A high rate looks like a trust failure; sometimes it is. But a rate that is persistently too low, in a domain with genuine uncertainty, is equally worth investigating. It may mean users cannot override easily. It may mean they have stopped paying attention. It may mean they have decided, correctly or not, that the agent is reliable enough not to check. Three distinct product problems, three different responses. Tracked over time, override frequency is also the signal that shows supervision eroding before the agent drifts past its authorized boundary.
 
-The fix requires a different approach to deployment. Deploy the agent in shadow mode first. Watch what it does. Understand the experience. Instrument it. Measure not "Did the agent work?" but "Did the human want the agent to do that?"
+**4. Confidence calibration.** The monitor metric with the longest lead time and the sharpest failure consequence. A well-calibrated agent expresses high certainty on things it gets right and surfaces uncertainty on things it gets wrong. An overconfident agent builds fragile trust: adoption that holds until the first visible failure, then collapses faster than it was built. Calibration is not a model property you inherit from the vendor. It is a design surface you build around the model output.
 
-Then, and only then, give it the ability to act.
+**Fix**
 
-The supplier's story ended okay. She contacted the company. They disabled the automatic ordering and gave her a dashboard where she could see the agent's predictions and approve them manually. The system became useful instead of surprising.
+**5. Rollback time.** This metric only exists if a recovery workflow was designed as a product surface. If the response to a consequential error is an email thread and a manual correction, rollback time is measured in days and logged nowhere. If a compensating workflow was built, staged, and accessible from launch, rollback time is measured in minutes and becomes a sprint target.
 
-But that fix came late, after the system had already alienated her. The right approach would have been to start there. To design the experience first. To ask not "What can this agent do?" but "What will it feel like to work alongside this agent every day?"
+**6. Incident recovery time.** The organizational equivalent of rollback time. When an agent misbehaves at scale, the response involves freezing the agent, attributing the failure, notifying affected users, and reauthorizing before resuming. If that sequence was not designed, incident recovery time measures the speed of improvisation. Most teams have not designed it.
 
-That's the design work ahead. Not capability. Experience. And we're still learning how to do it.
+**Into the next sprint**
+
+Every one of these six metrics is a sprint input, not just a performance indicator. Override frequency trending upward in a specific workflow means the autonomy boundary needs recalibration. Calibration diverging from actual accuracy means the feedback mechanism between user corrections and model behavior is broken. Incident recovery time that has not improved across three incidents means the recovery surface was designed once and never iterated. The observation phase does not close at the quarterly review. It closes when the finding lands in the next sprint.
+
+---
+
+## The Metric Is the Test of the Design
+
+There is a forcing function in the measurement problem that exposes the design gap directly.
+
+If a team cannot produce the override frequency metric, the override surface was not designed to be legible or logged. If they cannot produce rollback time, recovery was not treated as a product surface. If they cannot produce a confidence calibration curve, confidence was not surfaced to the user in a measurable form. The absence of the metric is not a data infrastructure problem. It confirms that the corresponding phase of the product lifecycle was never built.
+
+This is the reversal that agentic products require from teams trained on SaaS instrumentation. In traditional SaaS thinking, you design the product and instrument it afterward. In agentic product design, the metric is the design requirement stated in advance. You design the approval moment because you need to measure override frequency. You design the recovery workflow because rollback time must become a sprint target. You design the audit surface because traceability is a product commitment, not a logging exercise. The observation phase and the build phase are the same decision, made at different moments in the cycle.
+
+---
+
+## The PM Owns the Loop
+
+Product lifecycle management is a PM responsibility. Not the launch. The loop.
+
+Engineering builds the instrumentation. The PM defines what to instrument, why each metric matters to the next release, and what decision each signal should enable. That means owning the six metrics before the first production incident, not as a retrospective task. It means reviewing override frequency alongside completion rate in every sprint review. It means setting the rollback time target before launch, because the target is what forces the recovery workflow to be designed and not deferred.
+
+The organizations furthest along on this treated the observation phase as a design brief, not a postmortem. Bank of New York (BNY) Eliza platform, with over a hundred digital employees operating in regulated financial services, maintains human oversight at the policy and exception level. The governance design, what triggers review, what the recovery path looks like, who sees what when, preceded the deployment decision. The PM closed the loop before anyone shipped.
+
+---
+
+## The Question That Precedes the Dashboard
+
+The signals exist whether or not teams design them. Override behavior is recorded in support tickets. Recovery time appears in incident postmortems. Miscalibrated confidence shows up in churn, after a failure nobody saw coming, measured in months.
+
+The question is not whether the data exists. It is whether the product lifecycle is designed to see it, act on it, and turn it into the next sprint.
+
+You do not leave a group of toddlers unobserved in a room, regardless of the setting or their behavior record. Not because you expect the worst. Because observation is not a trust judgment. It is a design requirement.
+
+The same logic applies to any system that acts autonomously in the world. Launch is not the end of the product lifecycle. It is the moment the observation phase begins.
+
+---
+
+*This article is part of an ongoing series on AI product design, healthcare data, and the human side of technology adoption.*
