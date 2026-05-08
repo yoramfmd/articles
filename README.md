@@ -22,7 +22,7 @@ Published writing on healthcare AI, data infrastructure, product management, and
 | [The House of Cards](product-management/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech.md) | Feb 28, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech/) |
 | What Do We Do With the Frameworks? | Mar 10, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/what-do-we-do-with-the-frameworks/) |
 | The Context Is the Product | Mar 20, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-context-is-the-product/) |
-| Your Agent Worked. Your Users Bypassed It. | Apr 18, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/your-agent-worked-your-users-bypassed-it/) |
+| [Your Agent Worked. Your Users Bypassed It.](product-management/your-agent-worked-your-users-bypassed-it.md) | Apr 18, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/your-agent-worked-your-users-bypassed-it/) |
 | [How to Raise Agentic AI Concerns Without Being Sidelined](product-management/how-to-raise-agentic-ai-concerns-without-being-sidelined.md) | Apr 20, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/how-to-raise-agentic-ai-concerns-without-being-sidelined-slug/) |
 | [What CEOs Need to Know to Win the AI Bloodbath](product-management/what-ceos-need-to-know-to-win-the-ai-bloodbath.md) | — (draft) | — |
 | [Stop Looking for Unicorns](product-management/stop-looking-for-unicorns.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
