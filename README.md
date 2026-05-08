@@ -35,6 +35,7 @@ A series on what it means to design for systems that act, not just recommend.
 | [3. You Can't Measure What You Didn't Design](agentic/agentic-series-3-you-cant-measure-what-you-didnt-design.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [4. Change Management for Agentic AI](agentic/agentic-series-4-change-management-for-agentic-ai.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [5. Silent Degradation](agentic/agentic-series-5-silent-degradation-what-a-deployed-clinical-ai-looks-like-at-month-eighteen.md) | Apr 7, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [The Stack Is Green. The Agent Is Wrong.](agentic/the-stack-is-green-the-agent-is-wrong.md) | May 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 
 ---
 
@@ -120,6 +121,14 @@ A series on what it means to design for systems that act, not just recommend.
 | [What the Next Generation of Physicians Won't Remember](analysis/what-the-next-generation-of-physicians-wont-remember.md) | Apr 7, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/what-the-next-generation-of-physicians-wont-remember/) |
 | [The Garden Wall Problem](analysis/the-garden-wall-problem.md) | Feb 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [Why Healthcare AI Must Be Multimodal](analysis/why-healthcare-ai-must-be-multimodal.md) | Feb 3, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+
+---
+
+### Healthcare AI: Product and Platform Analysis
+
+| Article | Published | Ghost |
+|---|---|---|
+| [The Default Answer Is Google](healthcare-ai/the-default-answer-is-google.md) | May 7, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 
 ---
 
