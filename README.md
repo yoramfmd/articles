@@ -9,6 +9,29 @@ Published writing on healthcare AI, data infrastructure, product management, and
 
 ## Series
 
+### Product Management and Enterprise AI
+
+| Article | Published | Ghost |
+|---|---|---|
+| [AI Is Not a Product](product-management/ai-is-not-a-product.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [The Question Is No Longer "Can We Build It?"](product-management/the-question-is-no-longer-can-we-build-it.md) | Feb 5, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [You're Not a Bridge Anymore](product-management/youre-not-a-bridge-anymore-how-ai-is-redefining-product-management.md) | Mar 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [The Smartest Person in the Room Is a Prompt](product-management/the-smartest-person-in-the-room-is-a-prompt.md) | Feb 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| The Room That Runs Itself | Feb 1, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| The Model Was Never the Product | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [The House of Cards](product-management/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech.md) | Feb 28, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech/) |
+| What Do We Do With the Frameworks? | Mar 10, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/what-do-we-do-with-the-frameworks/) |
+| The Context Is the Product | Mar 20, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-context-is-the-product/) |
+| Your Agent Worked. Your Users Bypassed It. | Apr 18, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/your-agent-worked-your-users-bypassed-it/) |
+| [How to Raise Agentic AI Concerns Without Being Sidelined](product-management/how-to-raise-agentic-ai-concerns-without-being-sidelined.md) | Apr 20, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/how-to-raise-agentic-ai-concerns-without-being-sidelined-slug/) |
+| [What CEOs Need to Know to Win the AI Bloodbath](product-management/what-ceos-need-to-know-to-win-the-ai-bloodbath.md) | — (draft) | — |
+| [Stop Looking for Unicorns](product-management/stop-looking-for-unicorns.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [There Is No Certification for This](product-management/there-is-no-certification-for-this.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [What You Owe the People Who Will Never Be in the Room](product-management/what-you-owe-the-people-who-will-never-be-in-the-room.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [Creating Your Own Voice](product-management/creating-your-own-voice-how-to-introduce-yourself-to-claude-and-why-you-need-to.md) | Feb 27, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+
+---
+
 ### The Signals
 Personal essays using clinical memories as lenses on AI. Each piece is named after a clinical tool or role.
 
@@ -76,29 +99,6 @@ A series on what it means to design for systems that act, not just recommend.
 | [The Parallel Health System](patient/the-parallel-health-system.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [Healthcare AI Equity](patient/healthcare-ai-equity-governance.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [Bridge Operator Thinking in Healthcare AI](patient/bridge-operator-thinking-in-healthcare-ai.md) | Mar 3, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-
----
-
-### Product Management and Enterprise AI
-
-| Article | Published | Ghost |
-|---|---|---|
-| [AI Is Not a Product](product-management/ai-is-not-a-product.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [The Question Is No Longer "Can We Build It?"](product-management/the-question-is-no-longer-can-we-build-it.md) | Feb 5, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [You're Not a Bridge Anymore](product-management/youre-not-a-bridge-anymore-how-ai-is-redefining-product-management.md) | Mar 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [The Smartest Person in the Room Is a Prompt](product-management/the-smartest-person-in-the-room-is-a-prompt.md) | Feb 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [The Room That Runs Itself](product-management/the-room-that-runs-itself.md) | Feb 1, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [The Model Was Never the Product](product-management/the-model-was-never-the-product.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [The House of Cards](product-management/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech.md) | Feb 28, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech/) |
-| [What Do We Do With the Frameworks?](product-management/what-do-we-do-with-the-frameworks.md) | Mar 10, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/what-do-we-do-with-the-frameworks/) |
-| [The Context Is the Product](product-management/the-context-is-the-product.md) | Mar 20, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-context-is-the-product/) |
-| [Your Agent Worked. Your Users Bypassed It.](product-management/your-agent-worked-your-users-bypassed-it.md) | Apr 18, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/your-agent-worked-your-users-bypassed-it/) |
-| [How to Raise Agentic AI Concerns Without Being Sidelined](product-management/how-to-raise-agentic-ai-concerns-without-being-sidelined.md) | Apr 20, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/how-to-raise-agentic-ai-concerns-without-being-sidelined-slug/) |
-| [What CEOs Need to Know to Win the AI Bloodbath](product-management/what-ceos-need-to-know-to-win-the-ai-bloodbath.md) | — (draft) | — |
-| [Stop Looking for Unicorns](product-management/stop-looking-for-unicorns.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [There Is No Certification for This](product-management/there-is-no-certification-for-this.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [What You Owe the People Who Will Never Be in the Room](product-management/what-you-owe-the-people-who-will-never-be-in-the-room.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [Creating Your Own Voice](product-management/creating-your-own-voice-how-to-introduce-yourself-to-claude-and-why-you-need-to.md) | Feb 27, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 
 ---
 
