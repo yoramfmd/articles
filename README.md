@@ -32,7 +32,7 @@ A series on what it means to design for systems that act, not just recommend.
 | [0. Not Every Problem Deserves an Agent](agentic/agentic-series-0-not-every-problem-deserves-an-agent.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [1. You Built the Agent. Nobody Designed the Experience.](agentic/agentic-series-1-you-built-the-agent-nobody-designed-the-experience.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [2. AI Evals: What the Checkmarks Actually Prove](agentic/agentic-series-2-ai-evals-what-the-checkmarks-actually-prove.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| [3. You Can't Measure What You Didn't Design](agentic/agentic-series-3-you-cant-measure-what-you-didnt-design.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [3. You Can't Measure What You Didn't Design](agentic/agentic-series-3-you-cant-measure-what-you-didnt-define.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [4. Change Management for Agentic AI](agentic/agentic-series-4-change-management-for-agentic-ai.md) | Apr 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [5. Silent Degradation](agentic/agentic-series-5-silent-degradation-what-a-deployed-clinical-ai-looks-like-at-month-eighteen.md) | Apr 7, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [The Stack Is Green. The Agent Is Wrong.](agentic/the-stack-is-green-the-agent-is-wrong.md) | May 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
@@ -129,6 +129,8 @@ A series on what it means to design for systems that act, not just recommend.
 | Article | Published | Ghost |
 |---|---|---|
 | [The Default Answer Is Google](healthcare-ai/the-default-answer-is-google.md) | May 7, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [The Sequence Inverted](healthcare-ai/the-sequence-inverted.md) | May 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [Medicine Built the Framework. Just Not for This.](healthcare-ai/medicine-built-the-framework.md) | May 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 
 ---
 
