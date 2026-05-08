@@ -17,8 +17,8 @@ Published writing on healthcare AI, data infrastructure, product management, and
 | [The Question Is No Longer "Can We Build It?"](product-management/the-question-is-no-longer-can-we-build-it.md) | Feb 5, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [You're Not a Bridge Anymore](product-management/youre-not-a-bridge-anymore-how-ai-is-redefining-product-management.md) | Mar 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [The Smartest Person in the Room Is a Prompt](product-management/the-smartest-person-in-the-room-is-a-prompt.md) | Feb 2, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| The Room That Runs Itself | Feb 1, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
-| The Model Was Never the Product | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [The Room That Runs Itself](product-management/the-room-that-runs-itself.md) | Feb 1, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
+| [The Model Was Never the Product](product-management/the-model-was-never-the-product.md) | Early 2026 | [↗](https://data-decisions-and-clinics.ghost.io/) |
 | [The House of Cards](product-management/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech.md) | Feb 28, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-house-of-cards-why-mvp-thinking-is-breaking-healthtech/) |
 | What Do We Do With the Frameworks? | Mar 10, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/what-do-we-do-with-the-frameworks/) |
 | The Context Is the Product | Mar 20, 2026 | [↗](https://data-decisions-and-clinics.ghost.io/the-context-is-the-product/) |
