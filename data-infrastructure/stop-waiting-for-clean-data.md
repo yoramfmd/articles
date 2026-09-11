@@ -1,6 +1,16 @@
-# Stop Waiting for Clean Data
+---
+title: "Stop Waiting for Clean Data"
+slug: stop-waiting-for-clean-data
+published_at: 2026-02-25T19:50:00.000Z
+custom_excerpt: "The healthcare data integration problem is 20 years old and not going away. So why are we still building AI that assumes clean data? A case for designing AI that works in the real world, not the one we keep promising to build."
+tags: [data]
+feature_image: https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/02/ChatGPT-Image-Feb-25--2026--12_05_28-PM.png
+source: ghost
+---
 
 ### A Case for AI That Works in the Real World
+
+---
 
 **I've counted HL7 characters by hand.**
 
@@ -13,6 +23,8 @@ The integration problem we did not solve in the past twenty years will not disap
 I've spent enough time on both sides of this problem, as a technologist who builds data infrastructure and as a physician who relies on it, to say that clearly and without apology.
 
 It's time to stop waiting. And it's time to ask a different question.
+
+![](https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/02/data-src-image-d436028e-ae74-4386-a21f-c67109f8a2a6.png)
 
 ### The Diagnosis: This Was Never Just a Technology Problem
 
@@ -27,6 +39,8 @@ Epic has no compelling business reason to make data easy to move to a competitor
 We solved the syntax problem repeatedly. We evolved the interface layer, HL7 v2 for messages, C-CDA for documents, and increasingly FHIR for APIs. Each improved something. None changed the incentives. And all three still coexist in production today, because new standards in healthcare add layers, they rarely replace what came before. A well-structured FHIR resource that exists in theory but is inaccessible in practice due to policy, business terms, or implementation friction is not interoperability. It is well-formatted isolation.
 
 The diagnosis is that we have been treating a structural disease with technical medicine. The treatment helps at the margins. It does not cure the underlying condition.
+
+---
 
 ### The Prognosis: Point-to-Point Is Here to Stay
 
@@ -46,6 +60,8 @@ The question is no longer *when will the data be ready for AI?*
 
 The question is *what do we build on the foundation we actually have?*
 
+---
+
 ### The PoC Trap: Where the Problem Gets Expensive
 
 Here is something that doesn't get said loudly enough. The data fragmentation problem is not just a foundation problem. It is actively destroying value right now, in ways that don't show up in strategy decks.
@@ -58,6 +74,8 @@ This is the part nobody wants to say out loud in the boardroom: deploying AI on 
 
 This is not a reason to stop building. It is a reason to build differently, with honest expectations, and with architectures that treat fragmentation as a permanent condition rather than a temporary inconvenience.
 
+---
+
 ### A Spectrum of Alternatives: From the Practical to the Speculative
 
 I want to be clear about what this section is and is not. It is not a roadmap. It is not a recommendation. I do not believe one solution exists, and I do not believe the same solution applies to every care delivery context. Some of these ideas are buildable today. Some require structural or regulatory shifts that may take years. Some are deliberately speculative, included not because I think they will happen but because the conversation needs to expand beyond the options currently on the table.
@@ -68,37 +86,39 @@ The goal here is not conclusions. The goal is provocation.
 
 These directions do not require new standards, new legislation, or new vendor behavior. They require different design choices.
 
-Clinical quorum bundles instead of complete records. A senior physician seeing a new consult does not have a complete longitudinal record. They reason under uncertainty, flag what they don't know, and make a calibrated recommendation. That is not a failure mode. That is medicine. We have held AI to a standard we never applied to clinicians. The alternative is to define, for each specific decision, the minimum coherent evidence set required to act safely. To start a statin, you need age, a recent LDL, cardiovascular risk factors, current medications, and known contraindications. Not 400 fields. Not a full imaging history. Just enough, assembled from whatever sources actually exist.
+***Clinical quorum bundles ****instead of complete records.* A senior physician seeing a new consult does not have a complete longitudinal record. They reason under uncertainty, flag what they don't know, and make a calibrated recommendation. That is not a failure mode. That is medicine. We have held AI to a standard we never applied to clinicians. The alternative is to define, for each specific decision, the minimum coherent evidence set required to act safely. To start a statin, you need age, a recent LDL, cardiovascular risk factors, current medications, and known contraindications. Not 400 fields. Not a full imaging history. Just enough, assembled from whatever sources actually exist.
 
-Coverage-aware AI. We obsess over harmonization. We rarely model visibility. What if every AI output included an explicit coverage report: labs available for the past 18 months, medications for the past 60 days, external pharmacy fills not detected. Models trained with coverage-aware features would degrade gracefully rather than confidently producing wrong answers. In fragmented care, visibility may be more predictive of safety than any single data element.
+***Coverage-aware AI.***** **We obsess over harmonization. We rarely model visibility. What if every AI output included an explicit coverage report: labs available for the past 18 months, medications for the past 60 days, external pharmacy fills not detected. Models trained with coverage-aware features would degrade gracefully rather than confidently producing wrong answers. In fragmented care, visibility may be more predictive of safety than any single data element.
 
-Decouple retrieval from reasoning. Today most agent architectures tightly couple retrieval, reasoning, and output. An alternative is to separate them: a deterministic retrieval layer, a context assembler that attaches provenance and missingness metadata, and a reasoning engine that sees the data alongside its coverage. The AI never directly queries the EHR. It reasons on a structured, audited context object. That shifts accountability and makes governance tractable.
+***Decouple retrieval from reasoning.***** **Today most agent architectures tightly couple retrieval, reasoning, and output. An alternative is to separate them: a deterministic retrieval layer, a context assembler that attaches provenance and missingness metadata, and a reasoning engine that sees the data alongside its coverage. The AI never directly queries the EHR. It reasons on a structured, audited context object. That shifts accountability and makes governance tractable.
 
-Purpose-scoped data products. You do not need to harmonize everything to harmonize something. A 30-day readmission product, a medication adherence product, a care gap product, each built from partial sources and governed for its specific use case. The goal is not a perfect lake. The goal is enough coherence for this decision, for this user, under this consent model.
+***Purpose-scoped data products.***** **You do not need to harmonize everything to harmonize something. A 30-day readmission product, a medication adherence product, a care gap product, each built from partial sources and governed for its specific use case. The goal is not a perfect lake. The goal is enough coherence for this decision, for this user, under this consent model.
 
 **Tier 2: Change the rules of the game**
 
 These directions require structural or regulatory movement. None of them are guaranteed. All of them are more likely than finishing enterprise harmonization in the next three years.
 
-Pay for data liquidity. We solved e-prescribing not through better XML but through reimbursement pressure. What if CMS quality measures rewarded verifiable data exchange completeness? What if payers offered bonus reimbursement for interoperable event publication? Data movement would accelerate faster than any new API specification.
+***Pay for data liquidity.*** We solved e-prescribing not through better XML but through reimbursement pressure. What if CMS quality measures rewarded verifiable data exchange completeness? What if payers offered bonus reimbursement for interoperable event publication? Data movement would accelerate faster than any new API specification.
 
-Certify AI on incomplete data. Today we validate models on curated datasets. What if certification required demonstrated performance under simulated missingness, explicit uncertainty reporting, and cross-EHR degradation testing? We stress test aircraft under turbulence. Changing that certification requirement would change vendor behavior overnight.
+***Certify AI on incomplete data.*** Today we validate models on curated datasets. What if certification required demonstrated performance under simulated missingness, explicit uncertainty reporting, and cross-EHR degradation testing? We stress test aircraft under turbulence. Changing that certification requirement would change vendor behavior overnight.
 
-Shared infrastructure for identity and terminology. Patient matching is the silent blocker that persists regardless of how elegant the FHIR server is. A nationally trusted, privacy-preserving identity resolution backbone combined with open, consortium-maintained terminology services would not centralize clinical data. It would centralize the glue that makes disparate data joinable.
+***Shared infrastructure for identity and terminology.*** Patient matching is the silent blocker that persists regardless of how elegant the FHIR server is. A nationally trusted, privacy-preserving identity resolution backbone combined with open, consortium-maintained terminology services would not centralize clinical data. It would centralize the glue that makes disparate data joinable.
 
-Contractual interoperability as a procurement lever. Health systems could include no-data-blocking clauses, real-time API access requirements, and export SLAs in every vendor contract. Renewal contingent on measurable data exchange performance. This attacks the economic incentive problem directly, using purchasing power that already exists.
+***Contractual interoperability as a procurement lever.***** **Health systems could include no-data-blocking clauses, real-time API access requirements, and export SLAs in every vendor contract. Renewal contingent on measurable data exchange performance. This attacks the economic incentive problem directly, using purchasing power that already exists.
 
 **Tier 3: The uncomfortable and the speculative**
 
 These ideas may be wrong. Some may only make sense in specific contexts. They are included because the binary of "wait for perfect integration" versus "deploy fragile AI and hope" is not the only choice available, and the field needs more imagination about what the third path looks like.
 
-Accept architectural asymmetry. Closed integrated systems will achieve near-real-time harmonized AI. Fragmented networks will not. Instead of forcing convergence, design differentiated architectures optimized for each care delivery model. This is not giving up. It is engineering for reality.
+***Accept architectural asymmetry.***** **Closed integrated systems will achieve near-real-time harmonized AI. Fragmented networks will not. Instead of forcing convergence, design differentiated architectures optimized for each care delivery model. This is not giving up. It is engineering for reality.
 
-Make patients active reconciliation validators. An AI-generated timeline shown to a patient, asking whether their medication list is current, whether they received care elsewhere, whether their allergies are accurate, turns the patient into a reconciliation loop that scales in ways clinician reconciliation never has. The human in the loop is the one person who has actually experienced all of their own care.
+***Make patients active reconciliation validators.*** An AI-generated timeline shown to a patient, asking whether their medication list is current, whether they received care elsewhere, whether their allergies are accurate, turns the patient into a reconciliation loop that scales in ways clinician reconciliation never has. The human in the loop is the one person who has actually experienced all of their own care.
 
-Let AI outputs become a new data layer. A medication reconciliation confidence score. A care gap likelihood flag. A missing data alert. These outputs become new data products feeding planning and governance. AI stops being purely a consumer of the integration mess and starts becoming part of the infrastructure for managing it.
+***Let AI outputs become a new data layer.***** **A medication reconciliation confidence score. A care gap likelihood flag. A missing data alert. These outputs become new data products feeding planning and governance. AI stops being purely a consumer of the integration mess and starts becoming part of the infrastructure for managing it.
 
-Train models to expect adversarial data. Healthcare data is not just incomplete. It is structurally distorted. Billing codes optimized for reimbursement. Problem lists never reconciled after the acute episode. Models trained on real claims-plus-EHR misalignment would be more robust in production than models trained on gold-standard research datasets. This is standard practice in robust ML research. It is almost completely absent from clinical AI development.
+***Train models to expect adversarial data.*** Healthcare data is not just incomplete. It is structurally distorted. Billing codes optimized for reimbursement. Problem lists never reconciled after the acute episode. Models trained on real claims-plus-EHR misalignment would be more robust in production than models trained on gold-standard research datasets. This is standard practice in robust ML research. It is almost completely absent from clinical AI development.
+
+![](https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/02/data-src-image-cba8820a-5d09-4351-892a-02dac6f04d37.png)
 
 ### What I Know and What I Don't
 

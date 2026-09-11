@@ -1,4 +1,13 @@
-# You're Not a Bridge Anymore: How AI Is Redefining Product Management
+---
+title: "You're Not a Bridge Anymore: How AI Is Redefining Product Management"
+slug: youre-not-a-bridge-anymore-how-ai-is-redefining-product-management
+published_at: 2026-03-02T12:18:39.000Z
+custom_excerpt: "For 20 years, I translated between customers and engineers. Now I architect decision systems with AI. But here's the catch: you're designing for two customers: humans and their AI agents. Design for one, forget the other, and it fails.
+"
+tags: [pm, agentic]
+feature_image: https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/03/ChatGPT-Image-Mar-1--2026--08_27_53-PM.png
+source: ghost
+---
 
 I left my radiology residency because I couldn't reconcile myself to implementing evidence without questioning it. I wanted to innovate, to push back, to be the contrarian in the room. Medicine doesn't have space for people like that.
 
@@ -99,10 +108,15 @@ The bridge principle endures: observe, translate, route, prioritize, own outcome
 If you're a PM today, moving from bridge operator to bridge architect looks like:
 
 - **Document your decision policies.** When do you escalate? What principles guide your trade-offs? What's non-negotiable? Write it down. This becomes the guardrail layer for systems you build.
+
 - **Design one small decision system with defined autonomy.** Start simple. One problem. Clear roles. Specify which decisions the system makes alone, which need human review, which escalate to leadership.
+
 - **Audit an AI-assisted workflow.** Take something you already do with AI (feedback synthesis, PRD drafting, competitive analysis). What can be safely automated? What must stay under human judgment? What's currently fuzzy?
+
 - **Learn model evaluation.** You don't need to be a data scientist. You need to know when an AI recommendation is trustworthy and when it's fluent nonsense. This is the new critical skill.
+
 - **Separate tool use from system design.** Using Claude to write faster is still being the bridge. Building a decision council with irreconcilable perspectives is architecting the bridge.
+
 Start with one. The others follow.
 
 ## The Fundamental Shift

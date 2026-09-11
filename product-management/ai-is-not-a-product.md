@@ -1,4 +1,12 @@
-# AI Is Not a Product
+---
+title: "AI Is Not a Product"
+slug: ai-is-not-a-product
+published_at: 2026-03-19T12:20:00.000Z
+custom_excerpt: "People don't buy a drill. They buy a hole. AI is the drill. Every major technology wave produces the same confusion. SQL became infrastructure. Java became infrastructure. Cloud became a checkbox. AI is doing the same thing. We are in the expensive middle of that arc right now."
+tags: [pm]
+feature_image: https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/03/Gemini_Generated_Image_nkmpw0nkmpw0nkmp.png
+source: ghost
+---
 
 One of the first things you learn in product management is that people don't want a quarter-inch drill. They want a quarter-inch hole. This is Jobs to Be Done in one sentence: people pay for outcomes, not for tools.
 
@@ -14,7 +22,7 @@ Every major technology wave produces the same brief confusion. The capability ar
 
 SQL arrived and organizations hired SQL experts. Not because SQL was the outcome, but because SQL was new, powerful, and nobody quite understood where it fit yet. Then the abstraction layer arrived, the database became infrastructure, and what mattered was the report, the query result, the business decision it enabled. Nobody selling enterprise software today leads with "powered by SQL."
 
-Java arrived and for a few years "Java developer" was the most recruited title in technology. Then Java became one of several languages the system happened to be written in, invisible to the buyer, irrelevant to the outcome. Mobile arrived and "mobile-first" was briefly a product strategy before it became a design principle before it became assumed. Cloud arrived and "cloud-powered" was a differentiator for about eighteen months before every vendor put it on their website and it stopped meaning anything.
+Java arrived and for a few years "Java developer" was the most recruited title in technology. Then Java became one of several languages the system happened to be written in, invisible to the buyer, irrelevant to the outcome. C# arrived and did the same thing. Mobile arrived and "mobile-first" was briefly a product strategy before it became a design principle before it became assumed. Cloud arrived and "cloud-powered" was a differentiator for about eighteen months before every vendor put it on their website and it stopped meaning anything.
 
 AI is doing the same thing, at greater speed and with more cultural noise than any of the prior waves.
 
@@ -60,7 +68,7 @@ The RFPs that ask "do you use AI?" are asking the wrong question. The ones that 
 
 ## The Temporary Interface Problem
 
-There is one more manifestation of this confusion that deserves its own examination.
+There is one more manifestation of this confusion that deserves its own examination, and it will be the subject of the next piece.
 
 Prompt engineering is now on the mandatory skills list for product managers, UX designers, and developers. Online courses are selling it as a foundational AI competency. Organizations are adding it to job descriptions.
 
@@ -70,7 +78,7 @@ Writing prompts to get useful outputs from a language model is not different in 
 
 Nobody teaches punch card programming today. Nobody lists Vi proficiency as a core design competency. The interface evolved until the workaround was no longer necessary.
 
-Prompt engineering is already following that arc, faster than most people teaching it have noticed. Research on some of the latest reasoning models shows that elaborate, carefully structured prompts can reduce performance compared to simpler, more direct requests. The craft that was essential in 2023 is already less useful than it was. The interface did not wait for the training industry to catch up.
+Prompt engineering is already following that arc, faster than most people teaching it have noticed. Research on some of the latest reasoning models shows that elaborate, carefully structured prompts can reduce performance compared to simpler, more direct requests. For at least some of the models that matter most, the craft that was essential in 2023 is already less useful than it was. The interface did not wait for the training industry to catch up.
 
 What will not be abstracted away: knowing what job you are trying to do, knowing what good output looks like, knowing when the result is wrong and why. Those are judgment skills. They do not disappear when the interface improves. They become more valuable.
 
@@ -87,7 +95,3 @@ The companies that treat AI as a product will spend the next several years defen
 A product built on C# is not a C# product. A product built on AI is not an AI product.
 
 It is a hire. Make sure you know what job it is doing.
-
----
-
-*Yoram Friedman, MD is a physician and senior product manager at SAP Business Data Cloud. He holds three Harvard Medical School executive education certificates in healthcare digital transformation and AI.*

@@ -1,10 +1,14 @@
-# There Is No Certification for This
-
-*The soft skills that make a great AI product manager are not taught. They are built the hard way.*
-
+---
+title: "There Is No Certification for This"
+slug: there-is-no-certification-for-this
+published_at: 2026-03-24T02:01:14.000Z
+custom_excerpt: "AI compresses knowledge. It does not compress experience. The junior PM in your next interview has access to the same tools you do. What separates you now is judgment. There is no course for that. There never was. "
+tags: [pm, people]
+feature_image: https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/03/Gemini_Generated_Image_aztsltaztsltazts.png
+source: ghost
 ---
 
-My previous piece told companies what to look for when hiring a product leader for healthcare AI. The short version: stop requiring fourteen years of experience in a field that is three years old, and stop filtering for knowledge that AI can now compress in an afternoon. Hire for judgment, domain depth, and the ability to run an end-to-end product cycle with a team of agents and junior PMs.
+[My previous piece](https://data-decisions-and-clinics.com/stop-looking-for-unicorns/) told companies what to look for when hiring a product leader for healthcare AI. The short version: stop requiring fourteen years of experience in a field that is three years old, and stop filtering for knowledge that AI can now compress in an afternoon. Hire for judgment, domain depth, and the ability to run an end-to-end product cycle with a team of agents and junior PMs.
 
 Several people responded with a version of the same question: how do I build those skills?
 
@@ -24,7 +28,7 @@ The people who navigated those cycles well were not the ones who had read the mo
 
 That sentence cannot be acquired in a certification program. It is built through repeated exposure to failure, at enough depth to understand why, over enough time to recognize the early signals the next time they appear. A physician colleague once told me that the difference between a resident and an attending is not knowledge. It is the ability to be calm when something unexpected happens, because you have seen enough unexpected things to know that most of them are navigable. The senior PM equivalent is that same quality: the clarity to think well when the project is off track and the room is looking to you for a call.
 
-My first manager at Microsoft said something I have carried ever since: "I have no problem if you make a mistake, as long as you do not make it again." At the time it sounded like a reasonable management policy. Twenty years later it reads like a precise description of how that stability is built. The mistake is the lesson. The repetition is the failure. And the only way to accumulate enough lessons to become truly useful in complex, high-stakes environments is to have been in enough of them, made enough mistakes, and paid enough attention to understand why.
+My first manager at Microsoft said something I have carried ever since: "I have no problem if you make a mistake, as long as you do not make it again." At the time it sounded like a reasonable management policy. Twenty years later it reads like a precise description of how that stability is actually built. The mistake is the lesson. The repetition is the failure. And the only way to accumulate enough lessons to become truly useful in complex, high-stakes environments is to have been in enough of them, made enough mistakes, and paid enough attention to understand why.
 
 In healthcare AI, most of what is failing right now is failing because of governance gaps, change management problems, and data infrastructure that goes back decades. The PM who recognizes those patterns early, because they have seen versions of them before, is providing something no tool can replicate. Domain depth is what determines whether you can also see what the AI is about to get wrong before it does.
 
@@ -44,7 +48,7 @@ Here is the more subtle point: domain expertise does not just improve your evalu
 
 ## Product Strategy Is Still Entirely Human
 
-AI can support strategy in important ways: it synthesizes competitors, generates market estimates, and pressure-tests assumptions. What it cannot do is develop a differentiated point of view on what to build, why this organization is positioned to win, and what to decline building despite pressure to do otherwise. That requires understanding your organization's actual constraints, your team's real capabilities, and the specific gap in the market that your history and relationships position you to fill. That synthesis is not a reasoning task. It is a judgment task, and it requires the kind of situated knowledge that only comes from being inside an organization long enough to understand what is realistically possible versus what merely sounds strategic.
+AI can support strategy in important ways: it synthesizes competitors, generates market estimates, and pressure-tests assumptions. What it cannot do is develop a differentiated point of view on what to build, why this organization is positioned to win, and what to decline building despite pressure to do otherwise. That requires understanding your organization's actual constraints, your team's real capabilities, and the specific gap in the market that your history and relationships position you to fill. That synthesis is not a reasoning task. It is a judgment task, and it requires the kind of situated knowledge that only comes from being inside an organization long enough to understand what is actually possible versus what merely sounds strategic.
 
 The PMs who create the most value are the ones who invest here precisely because it cannot be automated. Strategy requires conviction. Conviction requires judgment. Judgment requires experience.
 
@@ -54,7 +58,7 @@ The PMs who create the most value are the ones who invest here precisely because
 
 The hardest problems I have faced as a product manager were never technical. They were organizational. The stakeholder who agreed in the meeting and then blocked the decision at the implementation stage. The UX designer who was convinced he was an artist and delivered a futuristic interface that no one, including the people who asked for it, could actually navigate. The engineering lead who was building the right thing technically but the wrong thing for the customer, and who needed to hear that in a way that preserved the relationship and the timeline.
 
-None of those situations have a framework. You learn to navigate them the same way a physician learns to deliver difficult news: by doing it badly first, reflecting on what you missed, and slowly developing the ability to read what is happening beneath the surface of a conversation.
+None of those situations have a framework. You learn to navigate them the same way a physician learns to deliver difficult news: by doing it badly first, reflecting on what you missed, and slowly developing the ability to read what is actually happening beneath the surface of a conversation.
 
 The most important clinical skill is not diagnosis. It is hearing what the patient is not saying, noticing the detail mentioned almost as an aside that turns out to be the whole problem. That skill transfers directly into product work. The stakeholder who says they support the roadmap but keeps introducing small delays is not a process problem. They are a communication problem, and they require the same quality of attention as the patient who mentions the symptom you almost missed.
 
@@ -96,7 +100,7 @@ The first article in this series told companies to stop looking for zebras. This
 
 There is a third layer beyond what this article covers. Accountability, equity, and the ethical architecture of clinical AI are not learnable in a course either. Accountability means knowing what to do when the system and the physician disagree and someone has to be responsible for what happens next. Equity means understanding that a model performing at 94% accuracy can simultaneously be failing a specific population entirely, and that no launch checklist catches this without someone with domain depth and pattern recognition looking for it. That conversation belongs in its own article.
 
-AI will not replace the PM who has the skills described here. It will make that PM dramatically more capable, because every hour that used to go to artifact production is now available for the work that requires judgment. But the judgment has to be there first.
+AI will not replace the PM who has the skills described here. It will make that PM dramatically more capable, because every hour that used to go to artifact production is now available for the work that actually requires judgment. But the judgment has to be there first.
 
 There is no certification for that. There never was.
 

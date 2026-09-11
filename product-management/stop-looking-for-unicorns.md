@@ -1,3 +1,13 @@
+---
+title: "Stop Looking for Unicorns"
+slug: stop-looking-for-unicorns
+published_at: 2026-03-22T18:03:20.000Z
+custom_excerpt: "Healthcare AI job postings keep asking for unicorns: 14 years of experience in a field that is three years old, deep AI expertise, deep clinical expertise, deep product expertise. That person does not exist. And even if they did, they would not fix the real problem."
+tags: [pm, people]
+feature_image: https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/03/Gemini_Generated_Image_22dt9m22dt9m22dt.png
+source: ghost
+---
+
 # Stop Looking for Unicorns
 
 *Why healthcare AI job postings are chasing zebras and missing the horses standing right in front of them*

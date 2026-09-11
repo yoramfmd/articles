@@ -1,3 +1,14 @@
+---
+title: "The Sequence Inverted"
+slug: the-sequence-inverted
+published_at: 2026-05-08T15:20:49.000Z
+custom_excerpt: "Clinical reasoning was built on a simple sequence: observe, hypothesize, test. Three disruptions have quietly inverted it. The signs still work. The sequence that gave them their meaning is disappearing.
+"
+tags: [healthai]
+feature_image: https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/05/ChatGPT-Image-May-8--2026--11_20_25-AM.png
+source: ghost
+---
+
 # The Sequence Inverted
 
 The neurology resident was tired. It was late in the ward round, the list was long, and the CT results had just come back on the patient in bed seven. Ischemic changes, left hemisphere. The attending glanced at the report, nodded, then walked to the bedside and stroked the sole of the patient's foot with the handle of a reflex hammer. The big toe extended upward. Babinski positive.

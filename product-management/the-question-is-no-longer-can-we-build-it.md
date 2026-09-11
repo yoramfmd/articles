@@ -1,6 +1,17 @@
-# The Question Is No Longer "Can We Build It?"
+---
+title: "The Question Is No Longer \"Can We Build It?\""
+slug: the-question-is-no-longer-can-we-build-it
+published_at: 2026-02-05T00:06:00.000Z
+custom_excerpt: "The bottleneck in tech is no longer writing code, it’s deciding what to build. As AI collapses development time, value shifts upstream to product judgment. In healthcare especially, models work, but projects fail without real product thinking. The new question isn’t can we build it, but should we.
+"
+tags: [pm, agentic]
+feature_image: https://storage.ghost.io/c/e6/05/e605b234-3cc8-4fe4-97bb-2bb55b18b8fb/content/images/2026/02/Gemini_Generated_Image_ojmthlojmthlojmt--1-.png
+source: ghost
+---
 
 ### Why Product Management and Product Research Are the Most Critical Skills in the Age of AI
+
+---
 
 Something profound has shifted in how technology companies operate. In the summer of 2025, Andrew Ng, the Stanford professor, former Google Brain scientist, and one of the most influential voices in artificial intelligence, made an observation on the *No Priors* podcast that landed like a thunderclap across the startup world. The biggest constraint on his teams, he said, was no longer writing code. It was deciding what to build.
 

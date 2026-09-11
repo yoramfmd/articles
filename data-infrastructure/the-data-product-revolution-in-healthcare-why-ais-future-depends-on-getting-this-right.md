@@ -1,4 +1,12 @@
-# The Data Product Revolution in Healthcare: Why AI's Future Depends on Getting This Right
+---
+title: The Data Product Revolution in Healthcare: Why AI's Future Depends on Getting This Right
+slug: the-data-product-revolution-in-healthcare-why-ais-future-depends-on-getting-this-right
+published: 2026-02-27
+excerpt: Data products are the missing layer in healthcare AI. There is no harmonization at scale without them. Instead of fragmented, untrusted datasets, data products create governed, reusable, semantically clear assets with defined ownership and value. That’s how AI moves from pilots to production.
+url: https://data-decisions-and-clinics.com/the-data-product-revolution-in-healthcare-why-ais-future-depends-on-getting-this-right/
+tags: Data & AI
+source: ghost-api-pull-2026-08-04
+---
 
 ### A Perspective from the Intersection of Medicine and Technology
 
@@ -52,7 +60,7 @@ On the infrastructure side, Datavant focuses on privacy-preserving linkage throu
 
 Specialty and disease-specific companies are creating domain-focused products. Flatiron Health productizes oncology real-world data with rigorous curation and compliance, positioning it as regulatory-grade for evidence generation. Tempus offers multimodal clinical and molecular data products including DNA, RNA, and pathology images for life sciences and clinical applications. Komodo Health provides patient-journey data products through their Healthcare Map and analytical tools built on top.
 
-Broader analytics and intelligence platforms are also embracing the data product model. Innovaccer's data platform helps organizations build data products for population health and value-based care. Health Catalyst offers domain-specific products combining clinical, financial, and outcomes analytics. Clarify Health Solutions creates performance analytics products specifically for value-based care contracts.
+Broader analytics and intelligence platforms are also embracing the data product model. Innovaccer's data platform (originally marketed as InData) helps organizations build data products for population health and value-based care. Health Catalyst offers domain-specific products combining clinical, financial, and outcomes analytics. Clarify Health Solutions creates performance analytics products specifically for value-based care contracts.
 
 ### How Data Products Transform Healthcare IT Architecture
 
@@ -92,7 +100,7 @@ But I need to be honest about where most healthcare organizations stand today. D
 
 ### The Path Forward: The Abstraction Layer Model
 
-Having worked on data integration challenges across industries, I need to be clear about what healthcare data product transformation actually looks like. The shift will be gradual and driven primarily by the major players who currently hold the data, the EHR vendors, imaging system providers, laboratory information system companies, and claims processors, though providers, payers, and regulators also exert significant influence on how this evolves.
+Having worked on data integration challenges across industries, I need to be clear about what healthcare data product transformation actually looks like. The shift will be gradual and driven primarily by the major players who currently hold the data—the EHR vendors, imaging system providers, laboratory information system companies, and claims processors—though providers, payers, and regulators also exert significant influence on how this evolves.
 
 The transformation model centers on adding an abstraction layer on top of these existing operational systems. This layer exposes data as semantically rich data products rather than requiring direct database access or custom integration to each system. Think of it as a semantic data platform that sits between operational systems and consumers.
 
@@ -104,13 +112,18 @@ The same architectural approach applies to healthcare, but with FHIR as the foun
 
 **Layer 1: Operational Systems (The Source)** EHR systems, imaging platforms (PACS), laboratory information systems, pharmacy systems, claims processors, and billing systems continue operating as they do today. These are the systems of record.
 
-**Layer 2: FHIR as the Standardized Interface** FHIR provides the standardized interface layer, offering a significant improvement over direct database access or proprietary schemas. It's not just about transport -- FHIR resources like Observation, Condition, and MedicationStatement encode clinical meaning and relationships. An LLM benefits from this normalized structure and explicit relationships rather than having to parse arbitrary database tables and figure out arcane join keys.
+**Layer 2: FHIR as the Standardized Interface** FHIR provides the standardized interface layer, offering a significant improvement over direct database access or proprietary schemas. It's not just about transport - FHIR resources like Observation, Condition, and MedicationStatement encode clinical meaning and relationships. An LLM benefits from this normalized structure and explicit relationships rather than having to parse arbitrary database tables and figure out arcane join keys.
 
 However, FHIR is a necessary foundation, not a complete solution. It requires profiles, implementation guides, terminology bindings, and often local extensions to work consistently across systems. AI and analytics still face challenges with optionality, inconsistent coding, missing fields, and varying implementations. FHIR provides a better starting point for building the semantic layer, but the data product platform must still handle curation, normalization, and quality assurance. Think of FHIR as necessary but insufficient, the foundation upon which semantic data products are built.
 
 **Layer 3: The Semantic Data Product Platform (The Abstraction Layer)** This is where the transformation happens. A semantic data platform sits on top of FHIR services and operational systems. It curates semantically rich data products by combining FHIR resources with additional semantic metadata, governance policies, and quality controls.
 
-For example, rather than just exposing raw FHIR Observation resources, the platform creates a "Diabetes Management Data Product" that provides a curated, governed, real-time patient narrative. This product combines FHIR Resources (the clinical base: observations, conditions, medications, procedures), Semantic Metadata (the meaning: standardized terminologies, clinical context, relationships), Governance and Policy (the safety: access controls, de-identification rules, consent management, audit trails), and Quality Metrics (the reliability: freshness SLOs, completeness measures, validation rules).
+For example, rather than just exposing raw FHIR Observation resources, the platform creates a "Diabetes Management Data Product" that provides a curated, governed, real-time patient narrative. This product combines:
+
+- FHIR Resources (the clinical base: observations, conditions, medications, procedures)
+- Semantic Metadata (the meaning: standardized terminologies, clinical context, relationships)
+- Governance and Policy (the safety: access controls, de-identification rules, consent management, audit trails)
+- Quality Metrics (the reliability: freshness SLOs, completeness measures, validation rules)
 
 **Layer 4: Derived Data Products** Building on foundation products, organizations and vendors create derived products for specific purposes: readmission risk scores, quality measure calculators, population health cohorts, clinical trial matching, care gap identification.
 
@@ -126,7 +139,14 @@ For example, rather than just exposing raw FHIR Observation resources, the platf
 
 ### The Gradual Transition
 
-This isn't a rip-and-replace transformation. Organizations gradually start consuming FHIR APIs from existing systems rather than direct database access, implement a semantic data platform that harmonizes data from multiple sources, catalog and govern the first data products (often Patient 360, quality measures, cohort builders), build derived products for specific analytical and AI use cases, expand consumption as more teams adopt products instead of custom integration, and partner with vendors who provide specialized products rather than building everything internally.
+This isn't a rip-and-replace transformation. Organizations gradually:
+
+1. **Start consuming FHIR APIs** from existing systems rather than direct database access
+2. **Implement a semantic data platform** that harmonizes data from multiple sources
+3. **Catalog and govern** the first data products (often Patient 360, quality measures, cohort builders)
+4. **Build derived products** for specific analytical and AI use cases
+5. **Expand consumption** as more teams adopt products instead of custom integration
+6. **Partner with vendors** who provide specialized products rather than building everything internally
 
 The operational systems stay in place. The transformation happens in the abstraction layer above them, where raw operational data becomes semantically rich, governed, reusable data products.
 
